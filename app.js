@@ -178,6 +178,7 @@ clearBtn.addEventListener('click', function(){
     tags = [];
     filterListInner.innerHTML = ''
     filterList.style.display = 'none';
+    renderJobs(data);
 })
 
 
